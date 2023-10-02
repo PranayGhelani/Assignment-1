@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" type="text/css" href="Form.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About me.html">About Me</a></li>
+                    <li>Projects</a></li>
+                    <li><a href="Form.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="cell">Cell No.:</label><br>
+            <input type="tel" id="cell" name="cell" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments"></textarea><br>
+            <input type="submit" value="Submit">
+        </form> 
+    </body>
+</html>
